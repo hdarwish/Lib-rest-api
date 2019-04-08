@@ -1,0 +1,30 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "RESTful Web Services with Node.js and Express by Jonathan Mills by Hafs",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdarwish/Lib-rest-api.git"
+  },
+  "author": "Hafs",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "gulp": "^4.0.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^4.9.1",
+    "should": "^11.2.1",
+    "sinon": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.0.0"
+  }
+}
